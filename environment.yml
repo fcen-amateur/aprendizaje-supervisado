@@ -1,0 +1,16 @@
+name: apsup
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  # Librerías científicas básicas
+  - numpy  # Estándar para el cómputo científico en Python
+  - pandas  # Estándar para la manipulación de datos en Python
+  - scikit-learn  # Estimadores y utilidades para estimacion
+  - statsmodels  # Modelos Lineales y otros, con estilo R
+  # Herramientas de ploteo
+  - matplotlib
+  - seaborn
+  # Para trabajar en notebooks
+  - jupyterlab
+  - ipykernel

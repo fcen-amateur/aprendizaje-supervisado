@@ -8,6 +8,7 @@ dependencies:
   - pandas  # Estándar para la manipulación de datos en Python
   - scikit-learn  # Estimadores y utilidades para estimacion
   - statsmodels  # Modelos Lineales y otros, con estilo R
+  - tensorflow  # Redes neuronales
   # Herramientas de ploteo
   - matplotlib
   - seaborn
